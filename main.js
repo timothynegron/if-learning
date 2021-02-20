@@ -2,8 +2,29 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
+function isItLong (str) {
+  return str.length > 20 ? 'That\'s a long string!' : undefined;
+}
 
+function isItMedium (str) {
+  return str.length >= 10 && str.length <= 20 ? 'That\'s a regular sized string!' : undefined;
+}
 
+function isItShort (str) {
+  return str.length < 10 ? 'That\'s a small string!' : 'That\'s not a small string!';
+}
+
+function howLongIsMyString (str) {
+  return str.length > 20 ? 'That\'s a long string!' 
+  : str.length >= 10 && str.length <= 20 ? 'That\'s a regular sized string!' 
+  : 'That\'s a small string!'
+}
+
+function instructorHeight (str) {
+  return str === 'Colin' ? 62 
+  : str === 'Mesuara' ? 69 
+  : 'I don\'t know that instructor!'
+}
 
 
 
